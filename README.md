@@ -30,6 +30,24 @@ Klinik kampus melayani pendaftaran berobat bagi anggota kampus. Pasien, yaitu Ma
 | `03_activity` | [`UTS_2406088_B_activity_v01.drawio`](03_activity/UTS_2406088_B_activity_v01.drawio) | Sumber Activity Diagram (draw.io) |
 | `03_activity` | [`UTS_2406088_B_activity_v01.png`](03_activity/UTS_2406088_B_activity_v01.png) | Hasil ekspor Activity Diagram |
 
+### Checklist Kesesuaian Soal
+
+| No | Ketentuan | Bukti |
+|---:|---|---|
+| 1 | Mengerjakan Bagian B karena NIM berakhiran genap | NIM 2406088, digit terakhir 8 |
+| 2 | Tugas 1: use case diagram lengkap | 4 aktor, 11 use case, 15 relasi, boundary sistem |
+| 3 | Tugas 1: asosiasi, generalisasi aktor, generalisasi use case, include, extend | Semua jenis relasi ada pada diagram |
+| 4 | Tugas 1: condition dan extension point extend | Dua callout `«extend»` + note lengkap |
+| 5 | Tugas 2: satu use case | UC02 Daftar Berobat |
+| 6 | Tugas 2: field Nama use case, Aktor, Tujuan, Deskripsi | Ada pada tabel `.drawio` dan ringkasan README |
+| 7 | Tugas 2: Skenario Normal, Alternative, Akhir | Ada; penomoran 1–14 berlanjut |
+| 8 | Tugas 3: use case sama dengan Tugas 2 | UC02 Daftar Berobat |
+| 9 | Tugas 3: swimlane, decision, guard, cabang alternatif, cabang extend | 2 swimlane, 2 decision, 5 guard, cabang extend |
+| 10 | Tugas 3: konsisten dengan tabel skenario | Tabel pemetaan langkah → node activity |
+| 11 | Pengumpulan: repo publik, tiga folder, README | Repo publik dengan struktur sesuai |
+| 12 | Penamaan berkas sesuai Tabel 2 | `UTS_2406088_B_*_v01` |
+| 13 | Identitas nama, NIM, kelas pada setiap berkas | Tertera pada judul/subjudul semua artefak |
+
 ---
 
 ## Tugas 1 — Use Case Diagram
@@ -209,6 +227,13 @@ Activity diagram menggunakan initial node, decision dengan guard, cabang alterna
 1. Buka [draw.io](https://app.diagrams.net/) atau aplikasi draw.io Desktop.
 2. Pilih **File → Open From → Device**, lalu buka berkas `.drawio` yang diinginkan.
 3. Berkas `.png` disediakan sebagai hasil ekspor/pratinjau dari sumber `.drawio` yang sama.
+
+### Ekspor Ulang PNG dari draw.io
+
+1. Buka berkas `.drawio` di draw.io.
+2. Pilih **File → Export as → PNG**.
+3. Atur **Zoom** 100% atau **Width** minimal 1600 px agar teks tetap tajam.
+4. Simpan dengan nama berkas PNG yang sama seperti pada repository.
 
 ## Versi
 
