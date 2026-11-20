@@ -174,7 +174,7 @@ Berkas sumber: [`03_activity/UTS_2406088_B_activity_v01.drawio`](03_activity/UTS
 | Langkah skenario | Node activity | Keterangan |
 |---:|---|---|
 | 1 | `A1 Memilih slot jadwal dokter yang tersedia` | Aksi Pasien |
-| 2 | `A2 Menampilkan formulir pendaftaran` | Respon Sistem |
+| 2 | `A2 Menampilkan data slot dan formulir pendaftaran` | Respon Sistem |
 | 3 | `A3 Mengisi data pendaftaran` | Aksi Pasien |
 | 4 | `A3B Menampilkan ringkasan data pendaftaran` | Respon Sistem |
 | 5 | `A4 Menyimpan pendaftaran` | Aksi Pasien |
@@ -184,7 +184,7 @@ Berkas sumber: [`03_activity/UTS_2406088_B_activity_v01.drawio`](03_activity/UTS
 | 9 | `D1 Jadwal tersedia?` → `A12` | Cabang `[tidak tersedia]` |
 | 10 | `A12 Menampilkan pesan jadwal tidak tersedia` | Menuju merge dan final |
 | 11 | `D2 Pasien memilih tindakan?` → `A8 «extend» Bayar Administrasi` | Cabang `[membayar]` |
-| 12 | `A10 Mengubah status menjadi Terdaftar` | Respon Sistem |
+| 12 | `A10 Mencatat pembayaran dan mengubah status menjadi Terdaftar` | Respon Sistem |
 | 13 | `D2 Pasien memilih tindakan?` → `A9 «extend» Batalkan Pendaftaran` | Cabang `[membatalkan]` |
 | 14 | `A11 Mengubah status menjadi Dibatalkan` | Respon Sistem |
 | Akhir | `MERGE` → `FINAL` | Semua cabang bertemu di merge |
