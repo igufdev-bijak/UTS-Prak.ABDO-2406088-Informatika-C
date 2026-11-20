@@ -12,6 +12,7 @@
 | Program studi / semester | S1 Teknik Informatika / Semester 5 |
 | Pertemuan | 8 |
 | Hari / tanggal | Kamis–Jumat, 19–20 November 2026 |
+| Repository | <https://github.com/igufdev-bijak/UTS-Prak.ABDO-2406088-Informatika-C> |
 
 ## Kasus
 
